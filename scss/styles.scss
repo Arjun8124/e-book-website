@@ -8,3 +8,13 @@
 #header-text{
   text-wrap: balance;
 }
+@media(max-width:1000px){
+  #header-image{
+    display:flex;
+    justify-content: center;
+  }
+  #header-text{
+    text-align: center;
+    text-wrap: pretty;
+  }
+}
