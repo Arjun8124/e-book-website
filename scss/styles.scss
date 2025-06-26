@@ -18,3 +18,9 @@
     text-wrap: pretty;
   }
 }
+@media(min-width:768px){
+  #icon1,#icon2,#icon3{
+    justify-content: center;
+    align-items: start;
+  }
+}
