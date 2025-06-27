@@ -8,6 +8,13 @@
 #header-text{
   text-wrap: balance;
 }
+.navbar-sticky{
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#dialog-modal{
+  max-width: 1050px;
+}
 @media(max-width:1000px){
   #header-image{
     display:flex;
@@ -17,10 +24,19 @@
     text-align: center;
     text-wrap: pretty;
   }
-}
-@media(min-width:768px){
-  #icon1,#icon2,#icon3{
+  #details-1-image{
+    display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+  }
+  #details-1-text{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-wrap: pretty;
+  }
+  #modal-image{
+    display: flex;
+    justify-content: center;
   }
 }
+
