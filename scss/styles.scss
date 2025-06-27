@@ -12,7 +12,7 @@
   opacity: 0.9;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-#dialog-modal{
+#dialog-modal,#dialog-modal-2{
   max-width: 1050px;
 }
 @media(max-width:1000px){
@@ -29,12 +29,12 @@
     justify-content: center;
     align-items: center;
   }
-  #details-1-text{
+  #details-1-text,#details-2-text{
     margin-left: 3rem;
     margin-right: 3rem;
     text-wrap: pretty;
   }
-  #modal-image{
+  #modal-image, #modal-image-2{
     display: flex;
     justify-content: center;
   }
