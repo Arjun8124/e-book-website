@@ -48,5 +48,6 @@ $spacers: (
         10: $spacer * 20,
 ) !default;
 
+$enable-negative-margins: true;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

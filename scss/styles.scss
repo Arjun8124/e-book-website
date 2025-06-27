@@ -5,6 +5,10 @@
   background: url("../images/header-background.jpg");
   background-size: cover;
 }
+#download{
+  background: url("../images/header-background.jpg");
+  background-size: cover;
+}
 #header-text{
   text-wrap: balance;
 }
@@ -38,7 +42,7 @@
     margin-right: 3rem;
     text-wrap: pretty;
   }
-  #modal-image, #modal-image-2{
+  #modal-image, #modal-image-2,#download-image{
     display: flex;
     justify-content: center;
   }
