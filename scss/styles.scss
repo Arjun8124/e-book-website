@@ -15,6 +15,10 @@
 #dialog-modal,#dialog-modal-2{
   max-width: 1050px;
 }
+#testimonial-image-1,#testimonial-image-2,#testimonial-image-3{
+  width: 150px;
+  height: 150px;
+}
 @media(max-width:1000px){
   #header-image{
     display:flex;
